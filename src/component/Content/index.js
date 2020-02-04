@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Container} from 'reactstrap';
 class Content extends Component {
-
   handle(i){
     this.props.history.push(`${i}`) //truyền string
   }
@@ -44,7 +43,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/2000w-may-duc-be-tong-ingco-pdb20001.jpg" alt="" />       
-         <h3>2000W MÁY ĐỤC BÊ TÔNG MAKITA HM1812</h3>    
+         <h3 onClick={()=>this.handle("abc")}>2000W MÁY ĐỤC BÊ TÔNG MAKITA HM1812</h3>    
          {/* <div href="/" onClick={()=>this.handle(2)}>Chi tiết thiết bị</div>   */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Đục</p>
@@ -54,7 +53,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/2000w-may-duc-be-tong-makita-hm1802.jpg" alt="" />       
-         <h3>6.35MM MÁY BẮT VÍT 500W MAXPRO MPES500V</h3>    
+         <h3 onClick={()=>this.handle("abc")}>6.35MM MÁY BẮT VÍT 500W MAXPRO MPES500V</h3>    
          {/* <div href="/" onClick={()=>this.handle(3)}>Chi tiết thiết bị</div>   */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Đóng</p>         
@@ -64,7 +63,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/40mm-may-khoan-duc-be-tong-1100w-makita-hr4013c.jpg" alt="" />       
-         <h3>MÁY KHOAN BÚA ĐỤC BÊ TÔNG 1600W DEWALT D25961K</h3>    
+         <h3 onClick={()=>this.handle("abc")}>MÁY KHOAN BÚA ĐỤC BÊ TÔNG 1600W DEWALT D25961K</h3>    
          {/* <div href="/" onClick={()=>this.handle(4)}>Chi tiết thiết bị</div>   */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Chọc</p>      
@@ -74,7 +73,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/1-500w-may-duc-be-tong-hm1213c.jpg" alt="" />       
-         <h3>720W MÁY VẶN VÍT TÔN S 2500E</h3>    
+         <h3 onClick={()=>this.handle("abc")}>720W MÁY VẶN VÍT TÔN S 2500E</h3>    
          {/* <div href="/" onClick={()=>this.handle(5)}>Chi tiết thiết bị</div>   */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Khoan</p>
@@ -84,7 +83,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/1700w-may-duc-be-tong-bosch-gsh-11vc.jpg" alt="" />       
-         <h3>570W MÁY VẶN VÍT MAKITA FS2500</h3>    
+         <h3 onClick={()=>this.handle("abc")}>570W MÁY VẶN VÍT MAKITA FS2500</h3>    
          {/* <div href="/" onClick={()=>this.handle(6)}>Chi tiết thiết bị</div>   */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Khoan</p>
@@ -94,7 +93,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/1500w-may-duc-be-tong-ingco-pdb15006.jpg" alt="" />       
-         <h3>17MM MÁY KHOAN ĐỤC BÊ TÔNG HELI Z1C BT 26-1</h3>    
+         <h3 onClick={()=>this.handle("abc")}>17MM MÁY KHOAN ĐỤC BÊ TÔNG HELI Z1C BT 26-1</h3>    
          {/* <div href="/" onClick={()=>this.handle(7) }>Chi tiết thiết bị</div>  */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Khoan</p>
@@ -104,7 +103,7 @@ class Content extends Component {
         </Form>
         <Form className="form-home">
          <img class="image" src="https://www.chothietbi.com/products/1700w-may-duc-be-tong-ingco-pdb17002.jpg" alt="" />       
-         <h3>2200W MÁY ĐỤC BÊ TÔNG TOTAL TH220502</h3>    
+         <h3 onClick={()=>this.handle("abc")}>2200W MÁY ĐỤC BÊ TÔNG TOTAL TH220502</h3>    
          {/* <div href="/" onClick={()=>this.handle(8)}>Chi tiết thiết bị</div>   */}
          <p class = "code">Mã: 01234</p>
          <p>Loại: Khoan</p>
