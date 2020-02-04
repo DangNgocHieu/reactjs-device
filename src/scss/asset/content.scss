@@ -1,0 +1,58 @@
+#content {
+    background-color: #fff;
+    width: calc(100% - 500px);
+    left: 250px;
+    position: absolute;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     top: 50px;
+    padding-top: 30px;
+    height: 1300px;
+    
+    .form-home {
+        width: 380px;
+        margin-bottom: 20px;
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        h3 {
+            margin: 0;
+        }
+        p { 
+            padding-right: 20px;
+            float: left;
+            // width: 100px;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+            line-height: 2.5;
+            font-size: 12px;
+        }
+
+        .device-price {
+            color: red;
+            margin-top: 20px;
+        }
+    }
+    .new {
+        margin: 0 auto;
+        text-align: center;
+        height: 40px;
+        position: absolute;
+        top:0;
+        width: 110px;
+        right: 0;
+
+        Button {
+            height: 40px;
+            font-size: 16px;
+            border: 0;
+            background: rgb(96, 96, 240);
+        }
+    }
+}

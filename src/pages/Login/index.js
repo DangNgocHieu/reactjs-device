@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Button, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';
 
 class Login extends Component {
+  handle(i){
+    this.props.history.push(`${i}`) //truyền string
+  }
   render() {
     return (      
       <Container id="login">
@@ -25,7 +28,7 @@ class Login extends Component {
             <Input type="password" placeholder="Password" autoComplete="current-password" className="text-password" />
           </InputGroup>
           <Row className="row-end">           
-            <Button color="primary" className="px-4" >Login</Button>
+            <Button color="primary" className="px-4" onClick={()=>this.handle("home")} >Login</Button>
             <Button color="link" className="px-0" >Forgot password?</Button>
           </Row>
         </Form>
